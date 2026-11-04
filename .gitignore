@@ -1,0 +1,37 @@
+# ==========================================
+# Python & Virtual Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+#
+# Data & Artifacts (Игнорируем только в корне)
+/data/
+/dataset/
+/processed/
+/models/        <--- ВОТ ЗДЕСЬ ПОЯВИЛСЯ СЛЕШ
+*.parquet
+*.zip
+*.npy
+*.joblib
+*.pkl
+
+# Reports & Dashboards
+
+/reports/
+
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

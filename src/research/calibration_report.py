@@ -1,0 +1,6 @@
+"   Spiegelhalter Z-тест"
+"Cox calibration regression"
+"Hosmer-Lemeshow"
+"ECE"
+"Reliability diagram"
+"Calibration slope/intercept"

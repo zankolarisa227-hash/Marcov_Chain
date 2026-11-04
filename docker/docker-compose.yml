@@ -1,0 +1,27 @@
+services:
+  credit-engine:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: credit-engine
+    ports:
+      - "8000:8000"
+    volumes:
+      # готовая модель с хоста
+      - ../models:/app/models:ro
+      # конфиг
+      - ../config.yaml:/app/config.yaml:ro
+    environment:
+      - PYTHONPATH=/app
+      - MODEL_PATH=/app/models/dynamic_model.joblib
+      - P_MATRIX_PATH=/app/models/P_matrix.npy
+      - META_PATH=/app/models/meta.json
+      - SCALERS_PATH=/app/models/scalers.joblib
+      - CONFIG_PATH=/app/configs/default.yaml
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

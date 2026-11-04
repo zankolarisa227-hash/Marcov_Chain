@@ -1,0 +1,50 @@
+project:
+  name: "Covariate-Dependent Markov Credit Risk"
+  version: "0.1.0"
+
+paths:
+  paths:
+  raw_dir: "dataset"
+  panel_dir: "data/processed/panel_synth"
+  features_dir: "data/processed/features_synth"
+  scores_dir: "data/processed/scores"
+  processed: "data/processed"
+  models_dir: "models"
+  reports: "reports"
+  meta_dir: "meta"
+  
+
+data:
+  n_states: 3
+  client_id_col: "app_id"
+  time_col: "month"
+  target_col: "flag"
+  raw_columns: ["app_id", "transactions", "flag"]
+  max_months: 6
+  min_history: 2
+  max_files: null
+
+model:
+  default_state: 2
+  static:
+    enabled: true
+  dynamic:
+    model_type: "logreg"
+    random_seed: 42
+
+risk:
+  lgd: 0.45
+  risk_appetite: 0.03
+  margin: 0.052
+  ead_default: 1.0
+
+training:
+  oot_split_month: 4
+  embargo_months: 1
+
+bootstrap:
+  n_boot: 300
+
+split:
+  split_month: 10
+  embargo_months: 1

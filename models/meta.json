@@ -1,0 +1,42 @@
+{
+  "split_month": 10,
+  "embargo_months": 1,
+  "default_state": 2,
+  "n_train_rows": 588841,
+  "n_oot_rows": 322133,
+  "n_train_pairs": 588841,
+  "feature_cols": [
+    "util_mean",
+    "util_std",
+    "util_max",
+    "util_min",
+    "util_range",
+    "util_trend",
+    "util_mean_last3",
+    "util_mean_prev",
+    "util_accel",
+    "util_growth_ratio",
+    "n_state_changes",
+    "state_change_rate",
+    "frac_current",
+    "frac_delinquent",
+    "frac_default",
+    "max_consec_delinquent",
+    "months_since_last_del",
+    "state_entropy",
+    "util_cv",
+    "high_util_ratio",
+    "ever_delinquent",
+    "util_rising_3m",
+    "util_vs_mean_dev",
+    "utilization",
+    "macro_stress",
+    "util_x_macro"
+  ],
+  "backend": "catboost",
+  "anti_leakage": {
+    "purged_split": true,
+    "train_only_scaler": true,
+    "causal_features": true
+  }
+}

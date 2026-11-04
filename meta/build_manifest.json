@@ -1,0 +1,242 @@
+[
+  {
+    "part_id": 0,
+    "source": "train_000.parquet",
+    "panel_rows": 136458,
+    "feature_rows": 90972,
+    "panel_path": "data\\processed\\panel\\part-000.parquet",
+    "features_path": "data\\processed\\features\\part-000.parquet"
+  },
+  {
+    "part_id": 1,
+    "source": "train_001.parquet",
+    "panel_rows": 137400,
+    "feature_rows": 91600,
+    "panel_path": "data\\processed\\panel\\part-001.parquet",
+    "features_path": "data\\processed\\features\\part-001.parquet"
+  },
+  {
+    "part_id": 2,
+    "source": "train_002.parquet",
+    "panel_rows": 130962,
+    "feature_rows": 87308,
+    "panel_path": "data\\processed\\panel\\part-002.parquet",
+    "features_path": "data\\processed\\features\\part-002.parquet"
+  },
+  {
+    "part_id": 3,
+    "source": "train_003.parquet",
+    "panel_rows": 131040,
+    "feature_rows": 87360,
+    "panel_path": "data\\processed\\panel\\part-003.parquet",
+    "features_path": "data\\processed\\features\\part-003.parquet"
+  },
+  {
+    "part_id": 4,
+    "source": "train_004.parquet",
+    "panel_rows": 128340,
+    "feature_rows": 85560,
+    "panel_path": "data\\processed\\panel\\part-004.parquet",
+    "features_path": "data\\processed\\features\\part-004.parquet"
+  },
+  {
+    "part_id": 5,
+    "source": "train_005.parquet",
+    "panel_rows": 129252,
+    "feature_rows": 86168,
+    "panel_path": "data\\processed\\panel\\part-005.parquet",
+    "features_path": "data\\processed\\features\\part-005.parquet"
+  },
+  {
+    "part_id": 6,
+    "source": "train_006.parquet",
+    "panel_rows": 124488,
+    "feature_rows": 82992,
+    "panel_path": "data\\processed\\panel\\part-006.parquet",
+    "features_path": "data\\processed\\features\\part-006.parquet"
+  },
+  {
+    "part_id": 7,
+    "source": "train_007.parquet",
+    "panel_rows": 118920,
+    "feature_rows": 79280,
+    "panel_path": "data\\processed\\panel\\part-007.parquet",
+    "features_path": "data\\processed\\features\\part-007.parquet"
+  },
+  {
+    "part_id": 8,
+    "source": "train_008.parquet",
+    "panel_rows": 125034,
+    "feature_rows": 83356,
+    "panel_path": "data\\processed\\panel\\part-008.parquet",
+    "features_path": "data\\processed\\features\\part-008.parquet"
+  },
+  {
+    "part_id": 9,
+    "source": "train_009.parquet",
+    "panel_rows": 118404,
+    "feature_rows": 78936,
+    "panel_path": "data\\processed\\panel\\part-009.parquet",
+    "features_path": "data\\processed\\features\\part-009.parquet"
+  },
+  {
+    "part_id": 10,
+    "source": "train_010.parquet",
+    "panel_rows": 118806,
+    "feature_rows": 79204,
+    "panel_path": "data\\processed\\panel\\part-010.parquet",
+    "features_path": "data\\processed\\features\\part-010.parquet"
+  },
+  {
+    "part_id": 11,
+    "source": "train_011.parquet",
+    "panel_rows": 114570,
+    "feature_rows": 76380,
+    "panel_path": "data\\processed\\panel\\part-011.parquet",
+    "features_path": "data\\processed\\features\\part-011.parquet"
+  },
+  {
+    "part_id": 12,
+    "source": "train_012.parquet",
+    "panel_rows": 116406,
+    "feature_rows": 77604,
+    "panel_path": "data\\processed\\panel\\part-012.parquet",
+    "features_path": "data\\processed\\features\\part-012.parquet"
+  },
+  {
+    "part_id": 13,
+    "source": "train_013.parquet",
+    "panel_rows": 121584,
+    "feature_rows": 81056,
+    "panel_path": "data\\processed\\panel\\part-013.parquet",
+    "features_path": "data\\processed\\features\\part-013.parquet"
+  },
+  {
+    "part_id": 14,
+    "source": "train_014.parquet",
+    "panel_rows": 129588,
+    "feature_rows": 86392,
+    "panel_path": "data\\processed\\panel\\part-014.parquet",
+    "features_path": "data\\processed\\features\\part-014.parquet"
+  },
+  {
+    "part_id": 15,
+    "source": "train_015.parquet",
+    "panel_rows": 122892,
+    "feature_rows": 81928,
+    "panel_path": "data\\processed\\panel\\part-015.parquet",
+    "features_path": "data\\processed\\features\\part-015.parquet"
+  },
+  {
+    "part_id": 16,
+    "source": "train_016.parquet",
+    "panel_rows": 120288,
+    "feature_rows": 80192,
+    "panel_path": "data\\processed\\panel\\part-016.parquet",
+    "features_path": "data\\processed\\features\\part-016.parquet"
+  },
+  {
+    "part_id": 17,
+    "source": "train_017.parquet",
+    "panel_rows": 119196,
+    "feature_rows": 79464,
+    "panel_path": "data\\processed\\panel\\part-017.parquet",
+    "features_path": "data\\processed\\features\\part-017.parquet"
+  },
+  {
+    "part_id": 18,
+    "source": "train_018.parquet",
+    "panel_rows": 121836,
+    "feature_rows": 81224,
+    "panel_path": "data\\processed\\panel\\part-018.parquet",
+    "features_path": "data\\processed\\features\\part-018.parquet"
+  },
+  {
+    "part_id": 19,
+    "source": "train_019.parquet",
+    "panel_rows": 118734,
+    "feature_rows": 79156,
+    "panel_path": "data\\processed\\panel\\part-019.parquet",
+    "features_path": "data\\processed\\features\\part-019.parquet"
+  },
+  {
+    "part_id": 20,
+    "source": "train_020.parquet",
+    "panel_rows": 124812,
+    "feature_rows": 83208,
+    "panel_path": "data\\processed\\panel\\part-020.parquet",
+    "features_path": "data\\processed\\features\\part-020.parquet"
+  },
+  {
+    "part_id": 21,
+    "source": "train_021.parquet",
+    "panel_rows": 121806,
+    "feature_rows": 81204,
+    "panel_path": "data\\processed\\panel\\part-021.parquet",
+    "features_path": "data\\processed\\features\\part-021.parquet"
+  },
+  {
+    "part_id": 22,
+    "source": "train_022.parquet",
+    "panel_rows": 113526,
+    "feature_rows": 75684,
+    "panel_path": "data\\processed\\panel\\part-022.parquet",
+    "features_path": "data\\processed\\features\\part-022.parquet"
+  },
+  {
+    "part_id": 23,
+    "source": "train_023.parquet",
+    "panel_rows": 119136,
+    "feature_rows": 79424,
+    "panel_path": "data\\processed\\panel\\part-023.parquet",
+    "features_path": "data\\processed\\features\\part-023.parquet"
+  },
+  {
+    "part_id": 24,
+    "source": "train_024.parquet",
+    "panel_rows": 114990,
+    "feature_rows": 76660,
+    "panel_path": "data\\processed\\panel\\part-024.parquet",
+    "features_path": "data\\processed\\features\\part-024.parquet"
+  },
+  {
+    "part_id": 25,
+    "source": "train_025.parquet",
+    "panel_rows": 119076,
+    "feature_rows": 79384,
+    "panel_path": "data\\processed\\panel\\part-025.parquet",
+    "features_path": "data\\processed\\features\\part-025.parquet"
+  },
+  {
+    "part_id": 26,
+    "source": "train_026.parquet",
+    "panel_rows": 108930,
+    "feature_rows": 72620,
+    "panel_path": "data\\processed\\panel\\part-026.parquet",
+    "features_path": "data\\processed\\features\\part-026.parquet"
+  },
+  {
+    "part_id": 27,
+    "source": "train_028.parquet",
+    "panel_rows": 113736,
+    "feature_rows": 75824,
+    "panel_path": "data\\processed\\panel\\part-027.parquet",
+    "features_path": "data\\processed\\features\\part-027.parquet"
+  },
+  {
+    "part_id": 28,
+    "source": "train_029.parquet",
+    "panel_rows": 112110,
+    "feature_rows": 74740,
+    "panel_path": "data\\processed\\panel\\part-028.parquet",
+    "features_path": "data\\processed\\features\\part-028.parquet"
+  },
+  {
+    "part_id": 29,
+    "source": "train_030.parquet",
+    "panel_rows": 113370,
+    "feature_rows": 75580,
+    "panel_path": "data\\processed\\panel\\part-029.parquet",
+    "features_path": "data\\processed\\features\\part-029.parquet"
+  }
+]

@@ -1,0 +1,40 @@
+project:
+  name: "Covariate-Dependent Markov Credit Risk"
+  version: "0.1.0"
+
+paths:
+  raw_dir: "data/raw/"
+  processed: "data/processed/"
+  panel_dir: "data/processed/panel"
+  features_dir: "data/processed/features"
+  models: "models/"
+  reports: "reports/"
+
+data:
+  #  параметры датасета
+  n_states: 3                    # 0 - Normal, 1 - Delinquent/Просрочка, 2 - Default (поглощающее состояние)
+  client_id_col: "app_id"        # или "client_id"
+  time_col: "month"              # или "report_date", "period"
+  target_col: "flag"             # или "status", "default_flag"
+  raw_column: ["app_id", "transactions", "flag"]
+  # Параметры для feature engineering
+  min_history:2          # минимум месяцев истории для расчёта признаков
+  max_month: 6               # ограничение по количеству месяцев (если нужно)
+  max_files: null
+
+model:
+  static:
+    enabled: true
+  dynamic:
+    model_type: "xgboost"       
+    random_seed: 42
+
+risk:
+  lgd: 0.45
+  risk_appetite: 0.03            # максимальный приемлемый PD
+  margin: 0.052
+
+training:
+  oot_split_month: 18            # месяцы 1-18 — train, 19+ — test (out-of-time)
+  embargo_month:1 
+  
