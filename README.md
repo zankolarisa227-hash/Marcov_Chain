@@ -157,3 +157,8 @@ $$
 ├── Makefile                # Быстрый запуск
 ├── run_pipeline.py         # Точка входа пайплайна
 └── requirements.txt        # Зафиксированные зависимости
+
+## Dashboard
+
+Интерактивный дашборд (Streamlit):  
+**[Открыть дашборд](https://ваш-ник-название.streamlit.app)**
